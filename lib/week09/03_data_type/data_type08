@@ -1,0 +1,16 @@
+const obj ={
+    greeting: "Hello",
+    foo: {
+        bar: 'baz'
+    },
+
+    now: new Date(),
+    func:function() {
+        console.log('function');
+    }
+}
+
+console.log(obj.greeting);
+console.log(obj['greeting']);
+console.log(obj.foo.bar);
+onsole.log(obj.now);
